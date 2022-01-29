@@ -1,9 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
+
+import Hero from "./components/hero/hero";
 
 function App() {
-  return <Navbar />;
+  return <Hero />;
 }
 
 export default App;
