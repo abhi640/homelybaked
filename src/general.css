@@ -102,8 +102,8 @@ body {
 }
 
 /* .grid:last-child {
-  margin-bottom: 0;
-} */
+    margin-bottom: 0;
+  } */
 
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
@@ -122,8 +122,8 @@ body {
 }
 
 /* .grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
-} */
+    grid-template-columns: repeat(5, 1fr);
+  } */
 
 .grid--center-v {
   align-items: center;

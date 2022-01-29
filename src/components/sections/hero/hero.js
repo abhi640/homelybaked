@@ -1,6 +1,8 @@
 import cookiepic from "../../../images/cookies3.webp";
 import hero from "../../../images/hero.png";
-import "./hero.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import customer1 from "../../../images/customers/customer-1.jpg";
 import customer2 from "../../../images/customers/customer-2.jpg";
 import customer3 from "../../../images/customers/customer-3.jpg";
@@ -19,9 +21,10 @@ const Hero = () => (
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </p>
-        <a href="#" className="btn">
+        <a href="#" class="btn btn--full margin-right-sm">
           Order Now
         </a>
+
         <div class="delivered-meals">
           <div class="delivered-imgs">
             <img src={customer1} alt="Customer photo" />

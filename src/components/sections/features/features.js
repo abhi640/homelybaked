@@ -1,4 +1,6 @@
-import "./features.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import feature1 from "../../../images/cookies/5.jpg";
 import feature2 from "../../../images/cookies/4.jpg";
 import feature3 from "../../../images/cookies/3.jpg";

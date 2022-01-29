@@ -1,4 +1,6 @@
-import "./footer.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import logo from "../../../images/logo.png";
 
 const Footer = () => (

@@ -1,4 +1,6 @@
-import "./products.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import cookies from "../../../images/cookies/6.jpg";
 
 import cake from "../../../images/cake.jpg";

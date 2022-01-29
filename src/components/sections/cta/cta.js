@@ -1,4 +1,6 @@
-import "./cta.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import image from "../../../images/hero.png";
 const Cta = () => (
   <section class="section-cta">

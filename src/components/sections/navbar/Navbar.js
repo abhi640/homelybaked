@@ -1,5 +1,7 @@
 import react from "react";
-import "./navbar.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import logo from "../../../images/logo.png";
 
 const Navbar = () => (
@@ -32,6 +34,10 @@ const Navbar = () => (
         </li>
       </ul>
     </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
   </header>
 );
 

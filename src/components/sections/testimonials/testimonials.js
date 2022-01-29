@@ -1,4 +1,6 @@
-import "./testimonials.css";
+import "../../../index.css";
+import "../../../style.css";
+import "../../../queries.css";
 import image1 from "../../../images/cookies/1.jpg";
 import image2 from "../../../images/cookies/2.jpg";
 import image3 from "../../../images/cookies/3.jpg";
