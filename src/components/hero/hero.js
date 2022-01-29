@@ -12,7 +12,7 @@ const Hero = () => (
     <div className="hero">
       <div className="hero-text-box">
         <h1 className="heading-primary">
-          A healthy food delivered to your door, every single day
+          For The Love of <span>Cookies, Chocolates and Cakes</span>
         </h1>
         <p className="hero-description">
           The smart 365-days-per-year food subscription that will make you eat
@@ -31,7 +31,7 @@ const Hero = () => (
             <img src={customer6} alt="Customer photo" />
           </div>
           <p class="delivered-text">
-            <span>250,000+</span> meals delivered last year!
+            <span>2500+</span> orders delivered last year!
           </p>
         </div>
       </div>
