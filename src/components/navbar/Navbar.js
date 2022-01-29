@@ -1,33 +1,42 @@
 import react from "react";
 import "./navbar.css";
+import logo from "../../images/logo.png";
 
 const Navbar = () => (
-  <nav class="navbar">
-    <div class="logo">Homely Baked</div>
-
-    <ul class="nav-links">
-      <input type="checkbox" id="checkbox_toggle" />
-      <label for="checkbox_toggle" class="hamburger">
-        &#9776;
-      </label>
-
-      <div class="menu">
+  <header class="header">
+    <a href="#">
+      <img class="logo" alt="Homely Baked logo" src={logo} />
+    </a>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
         <li>
-          <a href="/">Home</a>
+          <a class="main-nav-link" href="#">
+            About Us
+          </a>
         </li>
         <li>
-          <a href="/">About Us</a>
-        </li>
-
-        <li>
-          <a href="/">Products</a>
+          <a class="main-nav-link" href="#">
+            Products
+          </a>
         </li>
         <li>
-          <a href="/">Contact Us</a>
+          <a class="main-nav-link" href="#">
+            Testimonials
+          </a>
         </li>
-      </div>
-    </ul>
-  </nav>
+        <li>
+          <a class="main-nav-link" href="#">
+            Pricing
+          </a>
+        </li>
+        <li>
+          <a href="#" class="main-nav-link nav-cta">
+            Order Now
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 );
 
 export default Navbar;

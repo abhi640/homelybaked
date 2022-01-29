@@ -1,4 +1,5 @@
 import cookiepic from "../../images/cookies3.webp";
+import hero from "../../images/hero.png";
 import "./hero.css";
 import customer1 from "../../images/customers/customer-1.jpg";
 import customer2 from "../../images/customers/customer-2.jpg";
@@ -36,7 +37,7 @@ const Hero = () => (
         </div>
       </div>
       <div className="hero-img-box">
-        <img className="hero-img" src={cookiepic} />
+        <img className="hero-img" src={hero} />
       </div>
     </div>
   </section>
